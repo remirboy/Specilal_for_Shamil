@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/remir/CLionProjects/MPI_1/main.cpp
+stdio.h
+/Users/remir/CLionProjects/MPI_1/stdio.h
+mpi.h
+/Users/remir/CLionProjects/MPI_1/mpi.h
+stdlib.h
+/Users/remir/CLionProjects/MPI_1/stdlib.h
+math.h
+/Users/remir/CLionProjects/MPI_1/math.h
+

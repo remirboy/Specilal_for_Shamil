@@ -1,0 +1,3 @@
+/Users/remir/CLionProjects/MPI_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/remir/CLionProjects/MPI_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/remir/CLionProjects/MPI_5/cmake-build-debug/CMakeFiles/MPI_5.dir

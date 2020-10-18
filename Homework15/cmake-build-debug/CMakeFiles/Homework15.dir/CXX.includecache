@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/remir/CLionProjects/Homework15/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+/usr/local/opt/libomp/include/omp.h
+-
+cmath
+-
+
+/usr/local/opt/libomp/include/omp.h
+stdlib.h
+-
+stdint.h
+-
+

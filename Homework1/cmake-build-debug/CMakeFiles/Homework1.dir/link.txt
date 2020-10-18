@@ -1,0 +1,1 @@
+/usr/local/bin/g++   -std=c++11 -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Homework1.dir/task1.cpp.o  -o Homework1 
