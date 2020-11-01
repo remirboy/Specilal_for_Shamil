@@ -54,10 +54,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/FindMPI/test_mpi.cpp"
   "CMakeFiles/FindMPI/test_mpi.cpp"
+  "CMakeFiles/FindMPI/test_mpi.cpp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/MPI_6.dir/DependInfo.cmake"
+  "CMakeFiles/MPI_7.dir/DependInfo.cmake"
   )
