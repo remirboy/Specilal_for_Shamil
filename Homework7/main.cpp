@@ -2,6 +2,7 @@
 #include "/usr/local/opt/libomp/include/omp.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <chrono>
 #define len 12
 
 int main() {
@@ -13,6 +14,7 @@ int main() {
     int c[len];
 #pragma omp parallel num_threads(3)
     {
+
 #pragma omp for private(i) schedule(static)
         for (i = 0; i < len; i++) {
             a[i] = rmax + rand() % (rmin - rmax);
@@ -42,5 +44,6 @@ int main() {
         std::cout << "\n";
         std::cout <<"Thread "<< omp_get_thread_num()<<"\n";
         std::cout <<"Threads "<< omp_get_num_threads()<<"\n";
+
     }
 }
