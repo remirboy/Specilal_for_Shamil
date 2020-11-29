@@ -1,7 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/remir/CLionProjects/MPI5_3
--- Found MPI_C: /usr/local/Cellar/mpich/3.3.2_1/lib/libmpi.dylib (found version "3.1") 
--- Found MPI_CXX: /usr/local/Cellar/mpich/3.3.2_1/lib/libmpicxx.dylib (found version "3.1") 
--- Found MPI: TRUE (found version "3.1")  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/remir/CLionProjects/MPI5_3/cmake-build-debug
