@@ -80,15 +80,15 @@ include CMakeFiles/MPI8_2.dir/flags.make
 CMakeFiles/MPI8_2.dir/main.cpp.o: CMakeFiles/MPI8_2.dir/flags.make
 CMakeFiles/MPI8_2.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/remir/CLionProjects/MPI8_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MPI8_2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPI8_2.dir/main.cpp.o -c /Users/remir/CLionProjects/MPI8_2/main.cpp
+	/usr/local/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MPI8_2.dir/main.cpp.o -c /Users/remir/CLionProjects/MPI8_2/main.cpp
 
 CMakeFiles/MPI8_2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MPI8_2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/remir/CLionProjects/MPI8_2/main.cpp > CMakeFiles/MPI8_2.dir/main.cpp.i
+	/usr/local/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/remir/CLionProjects/MPI8_2/main.cpp > CMakeFiles/MPI8_2.dir/main.cpp.i
 
 CMakeFiles/MPI8_2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MPI8_2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/remir/CLionProjects/MPI8_2/main.cpp -o CMakeFiles/MPI8_2.dir/main.cpp.s
+	/usr/local/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/remir/CLionProjects/MPI8_2/main.cpp -o CMakeFiles/MPI8_2.dir/main.cpp.s
 
 # Object files for target MPI8_2
 MPI8_2_OBJECTS = \
